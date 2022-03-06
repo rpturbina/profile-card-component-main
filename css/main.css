@@ -1,1 +1,126 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.main {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg") #19a2ae;
+  background-size: 100vh;
+  background-repeat: no-repeat;
+  background-position: top calc(-100vh / 2) right calc(100vw / 2), bottom calc(-100vh / 2) left calc(100vw / 2);
+}
+
+.card {
+  margin: 146px 24px;
+  max-width: 326px;
+  border-radius: 14px;
+  text-align: center;
+  background-color: #fff;
+  -webkit-box-shadow: 0 30px 40px -10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 30px 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+.card__bg-img-container {
+  height: auto;
+  max-width: 100%;
+  background-image: url("../images/bg-pattern-card.svg");
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+.card__bg-img {
+  height: inherit;
+  max-width: inherit;
+  visibility: hidden;
+}
+
+.card__profile-pic {
+  display: block;
+  margin: auto;
+  margin-top: -53px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+
+.card__profile-name {
+  margin-top: 18px;
+  margin-bottom: 8px;
+  color: #2d3248;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.card__user-age {
+  margin-left: 10px;
+  color: #6a6f81;
+  font-weight: 400;
+}
+
+.card__user-location {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #969696;
+  color: #969696;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card__user-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card .user-info-container {
+  -ms-flex-preferred-size: 92px;
+      flex-basis: 92px;
+  padding: 24px 0;
+}
+
+.card .number {
+  margin-bottom: 4px;
+  color: #2d3248;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.card .info {
+  color: #969696;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.footer {
+  display: none;
+  font-size: 11px;
+  text-align: center;
+}
+
+.footer a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=main.css.map */
