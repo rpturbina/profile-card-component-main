@@ -27,8 +27,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Solution Repo](https://your-solution-url.com)
-- Live Site URL: [Live Demo](https://your-live-site-url.com)
+- Solution URL: [Solution Repo](https://github.com/rpturbina/profile-card-component-main)
+- Live Site URL: [Live Demo](https://rpturbina.github.io/profile-card-component-main/)
 
 ## My process
 
