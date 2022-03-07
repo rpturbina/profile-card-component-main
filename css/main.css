@@ -39,6 +39,8 @@ body {
   background-color: #fff;
   -webkit-box-shadow: 0 30px 40px -10px rgba(0, 0, 0, 0.25);
           box-shadow: 0 30px 40px -10px rgba(0, 0, 0, 0.25);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .card__bg-img-container {
@@ -122,5 +124,11 @@ body {
 
 .footer a {
   color: #3e52a3;
+}
+
+@media only screen and (min-width: 425px) {
+  .card {
+    max-width: 350px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
