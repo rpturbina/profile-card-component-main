@@ -26,6 +26,10 @@ body {
   font-family: $kumbh-sans-font;
 }
 
+a {
+  text-decoration: none;
+}
+
 // * Main Styling
 .main {
   min-height: 100vh;
@@ -121,11 +125,15 @@ body {
 
 // * Footer Styling
 .footer {
-  display: none;
-  font-size: 11px;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  color: #fff;
+  font-size: 12px;
   text-align: center;
   a {
-    color: hsl(228, 45%, 44%);
+    color: $very-dark-desaturated-blue;
   }
 }
 
